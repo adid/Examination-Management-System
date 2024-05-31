@@ -12,7 +12,9 @@ public class StudentDashboard {
             System.out.println("1. View registered courses");
             System.out.println("2. Register for courses");
             System.out.println("3. View Exam Schedule");
-            System.out.println("4. Logout");
+            System.out.println("4. View Marks");
+            System.out.println("5. View Result");
+            System.out.println("6. Logout");
 
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
@@ -28,6 +30,12 @@ public class StudentDashboard {
                     studentService.viewExamSchedules(userId);
                     break;
                 case 4:
+                    studentService.displayStudentMarks(userId);
+                    break;
+                case 5:
+                    studentService.showStudentResult(userId);
+                    break;
+                case 6:
                     System.out.println("Logging out...");
                     return;
                 default:
