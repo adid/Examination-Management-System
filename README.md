@@ -58,38 +58,27 @@ This is a Java-based Academic Management System using PostgreSQL for database ma
    ```bash
    git clone https://github.com/your-username/academic-management-system.git
    cd academic-management-system
-Configure PostgreSQL database connection parameters (url, user, password) in service classes or ideally in a configuration file.
+2. Configure PostgreSQL database connection parameters (url, user, password) in service classes or ideally in a configuration file.
 
-Compile Java classes:
+3. Compile Java classes:
+   ```bash
+   javac *.java
 
-bash
-Copy
-Edit
-javac *.java
-Run your main program (implement a main method or menu controller):
+4. Run your main program:
+   ```bash
+   java Main
 
-bash
-Copy
-Edit
-java Main
-Future Enhancements
-Implement a GUI frontend for better user interaction
+## Future Enhancements
+- Implement a GUI frontend for better user interaction
+- Use password hashing for secure authentication
+- Introduce admin modules for managing users and courses
+- Use ORM frameworks such as Hibernate for database abstraction
 
-Use password hashing for secure authentication
-
-Introduce admin modules for managing users and courses
-
-Use ORM frameworks such as Hibernate for database abstraction
-
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
 For any queries or contributions, please open an issue or contact:
 
-Your Name
-
-Email: your.email@example.com
-
-You dumb.
-Give me code to add in Github Readme.md
+Adid Al Mahamud Shazid
+Email: adidalmahamud@iut-dhaka.edu
