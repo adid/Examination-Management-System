@@ -1,8 +1,7 @@
-# Academic Management System
+# Examination Management System
 
 ## Overview
-
-This is a Java-based Academic Management System using PostgreSQL for database management. It provides functionalities for students, teachers, and admins to manage course registration, exam scheduling, marks entry, and result viewing through a command-line interface.
+This is a Java-based Examination Management System using PostgreSQL for database management. Core functionalities include course registration, exam scheduling, marks entry, result calculation, and viewing exam schedules or grades. This project mainly focuses on the implementation of SQL and PL/SQL in Applications.
 
 ---
 
@@ -56,8 +55,8 @@ This is a Java-based Academic Management System using PostgreSQL for database ma
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/academic-management-system.git
-   cd academic-management-system
+   git clone https://github.com/adid/Examination-Management-System.git
+   cd Examination-Management-System
 2. Configure PostgreSQL database connection parameters (url, user, password) in service classes or ideally in a configuration file.
 
 3. Compile Java classes:
@@ -81,4 +80,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any queries or contributions, please open an issue or contact:
 
 Adid Al Mahamud Shazid
+
 Email: adidalmahamud@iut-dhaka.edu
